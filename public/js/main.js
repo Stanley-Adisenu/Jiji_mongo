@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         productElement.innerHTML = `
                             <div>
                                 <div>
-                                    <img src="/img/images.jpeg" class="h-[8rem] w-[11rem] object-cover rounded-t-md">
+                                    <img src="/img/fruit.jpg" class="h-[8rem] w-[11rem] object-cover rounded-t-md">
                                 </div>
                                 <div class="py-4 px-2">
                                     <h1>${product.name}</h1>
