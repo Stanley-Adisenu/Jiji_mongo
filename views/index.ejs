@@ -1,0 +1,624 @@
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+<body>
+    
+    <div class="bg-[#cadbec77]">
+        <header class="fixed w-full z-[100] flex justify-center bg-[#00b53f]" style="box-shadow: 1px 1px 4px #50727da4;">
+            <div class="flex items-center justify-between w-[70rem] sm:mx-[2rem] md:mx-[3rem] lg:mx-[5rem] xl:mx-[6rem]">
+                <div class="relative">
+                    <a href="#">
+                        <img class="w-[70px] h-[60px] object-cover" src="/img/jiji_logo-removebg-preview.png">
+                    </a>
+                    <div class="absolute hidden sm:block md:hidden left-[10rem] w-[20rem] top-2 text-green-400">  
+                        <h1>SELL FASTER,</h1>
+                        <h1>BUY SMARTER</h1>
+                    </div>
+                    
+                </div>
+                <nav>
+                    <div class="flex items-center space-x-3 text-sm">
+                        <a href="#" class="text-white">Sign in</a>
+                        <a class="text-white">|</a>
+                        <a href="#" class="text-white">Registration</a>
+                        <a href="/cartView"><button class="py-[6px] px-10 text-xm rounded bg-[#FEA03C] hover:bg-[#cf8331] text-white text-xl">Show cart</button></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="flex justify-center items-center bg-gradient-to-br from-[#00b53f] via-[#228b22] to-[#228b22] h-[50vh] lg:h-[auto] py-28">
+            <div class="flex flex-col space-y-12 w-[90%] md:w-auto mt-16 md:mt-0">
+                <div><h1 class="text-white text-center text-lg font-semibold">Find everything in <a class="p-1 px-2 bg-black rounded-md text-sm text-white"><i class='bx bxs-edit-location mx-[2px] text-sm' style='color:#ffffff'  ></i>All Ghana</a></h1></div>
+                <div class="relative">
+                    <input type="text" placeholder="I am looking for..." class="  text-[#35495e] rounded-tl-lg rounded-bl-lg w-[100%] md:w-[31rem] px-6 py-[1.15rem] outline-none border-none text-sm ">
+                    <i class='absolute right-3 top-4 text-2xl bx bx-search-alt-2 text-[#5a7ca1]'></i>
+                </div>
+            </div>
+        </div>
+
+        <section class=" mx-auto 2xl:w-[120rem] px-[3%] sm:px-[5%] md:px-[8%] lg:px-[2%] xl:px-[8%] py-4">
+            <div class="xl:flex">
+                <div class="relative w-[30%] hidden xl:block">
+                    <div class="left-side">
+                        <div class="h-[36rem] overflow-y-scroll bg-white shadow-md">
+                            <div class="">
+                                <ul>
+                                    <li class="flex justify-between group items-center hover:bg-[#cadbec93] p-2 cursor-pointer">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                        <div class="inner_1 z-[50] hidden group-hover:block border-l border-green-500 absolute -right-[19rem] top-0 bg-white w-[20rem] h-[36rem]">
+                                            <ul class="">
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                </li>    
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer group">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                        <div class="inner_1 z-[50] hidden group-hover:block border-l border-green-500 absolute -right-[19rem] top-0 bg-white w-[20rem] h-[36rem]">
+                                            <ul class="">
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>    
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer group">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                        <div class="inner_1 z-[50] hidden group-hover:block border-l border-green-500 absolute -right-[19rem] top-0 bg-white w-[20rem] h-[36rem]">
+                                            <ul class="">
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>
+                                                <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer px-5">
+                                                    <div class="flex">
+                                                        <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                                        <div class="px-2">
+                                                            <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                            <h2 class="text-sm">77,795 ads</h2>
+                                                        </div>   
+                                                    </div>
+                                                    <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                                </li>    
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                    </li>
+                                    <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                    </li>
+                                    <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                    </li>
+                                    <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                    </li>
+                                    <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                    </li>
+                                    <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                    </li>
+                                    <li class="flex justify-between items-center hover:bg-[#cadbec93] p-2 cursor-pointer">
+                                        <div class="flex">
+                                            <img src="/img/vehicles.png" class="h-8 w-8 mt-2">
+                                            <div class="px-2">
+                                                <h2 class="text-gray-500 text-sm font-medium">Vehicles</h2>
+                                                <h2 class="text-sm">77,795 ads</h2>
+                                            </div>   
+                                        </div>
+                                        <i class='bx bxs-chevron-right text-xl font-thin text-gray-700'></i>
+                                    </li>
+        
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="grid grid-cols-4 xl:hidden gap-[2px] w-full">
+                    <div class="bg-[#fff] py-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <button class="rounded-[50%] h-[65%] bg-red-500 shadow-md"><i class='bx bx-plus text-white text-[3rem] md:text-[4rem] lg:text-[5rem] rounded-lg'></i></button>
+                        </div>
+                        <h1 class="text-sm md:text-base lg:text-lg text-center font-semibold text-red-500">Post add</h1>
+                    </div>
+                    <div class="bg-[#fff] py-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                    <div class="bg-[#fff] p-2 px-2 lg:px-8 text-white">
+                        <div class="flex justify-center my-3">
+                            <img src="/img/vehicles.png">
+                        </div>
+                        <h1 class="text-center text-gray-900 text-sm">Vehicles</h1>
+                    </div>
+                </div>
+                <div class="section1 w-[70%] hidden xl:block">
+                    <div class="flex">
+                        <div class="w-[35rem] h-[13rem] mx-4">
+                            <!-- Slideshow container -->
+                            <div class="slideshow-container">
+
+                                <!-- Full-width images with number and caption text -->
+                                <div class="mySlides fade">
+                                <img src="/img/how to buy.jpeg" style="width:100%" class="object-cover h-[13rem]">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                <img src="/img/how to buy.jpeg" style="width:100%" class="object-cover h-[13rem]">
+                                </div>
+                            
+                                <div class="mySlides fade">
+                                <img src="/img/images.jpeg" style="width:100%" class="object-cover h-[13rem]">
+                                </div>
+                            
+                                <!-- Next and previous buttons -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                            <br>
+                            
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                            </div>
+                        </div>
+                        <div class="bg-[#fea03c] h-[13rem] w-[14rem] p-2 text-white">
+                            <h1 class="text-lg font-semibold">Got something to sell?</h1>
+                            <div class="flex justify-center my-3">
+                                <button class="relative h-[6rem] w-[6rem]  rounded-[50%] bg-white shadow-md before:bg-[#fea03c] before:w-[60%] before:h-[6%] before:rounded-[4px] before:absolute before:top-[50%] before:left-[50%] before:translate-x-[-50%] before:translate-y-[-50%] after:bg-[#fea03c] after:w-[6%] after:h-[60%] after:rounded-[4px] after:absolute after:top-[50%] after:left-[50%] after:translate-x-[-50%] after:translate-y-[-50%]"></button>
+                            </div>
+                            <h1 class="text-lg text-center font-semibold">Post an advert for free</h1>
+                        </div>
+                    </div>
+                    <div class="px-4 my-4">
+                        <h1 class="font-bold py-5 text-[#284058f8] text-xl">Trending ads</h1>
+                        <div class=" ml-[30px]" style="margin:30px 0;">
+                            <form id="filterForm">
+                                <div class="" style="display: inline-flex;">
+                                    <label for="category" class="text-[#284058f8] text-xl font-bold">Category:</label>
+                                    <select id="category" name="category">
+                                        <option value="">All</option>
+                                        <% categories.forEach(category => { %>
+                                            <option value="<%= category._id %>"><%= category.name %></option>
+                                        <% }) %>
+                                        <!-- Categories will be populated dynamically -->
+                                    </select>
+                                </div>
+                                <!-- Region dropdown filter -->
+                                <label for="region" class="text-[#284058f8] text-xl font-bold">Region:</label>
+                                <select id="region" name="region">
+                                    <option value="">All</option>
+                                    <% regions.forEach(region => { %>
+                                        <option value="<%= region.name %>"><%= region.name %></option>
+                                    <% }) %>
+                                </select>
+                                <!-- Price range dropdown filter -->
+                                <label for="price" class="ml-5 text-[#284058f8] text-xl font-bold">Price Range:</label>
+                                <select id="price" name="price">
+                                    <option value="">All</option>
+                                    <!-- Update these options as needed for new price ranges -->
+                                    <option value="0-100">0 - 100</option>
+                                    <option value="100-500">100 - 500</option>
+                                    <option value="500+">500+</option>
+                                </select>
+                                <!-- Button to apply filters -->
+                                <button type="submit" id="apply-filters" class="py-1 px-3 bg-orange-400 text-white hover:bg-orange-600 rounded-md mx-3" style="padding: 3px 7px;">Apply Filters</button>
+                            </form>
+                            
+                        </div>
+                        <div id="productsContainer" class="flex flex-wrap gap-2">
+                            <% if(products.length > 0){ %>
+                                <%products.forEach(product =>{ %>
+                                    <div class="relative w-[11rem] rounded-md bg-white ">
+                                        <div>
+                                            <div>
+                                                <img src="../public/img/fruit.jpg" class="h-[8rem] w-[11rem] object-cover rounded-t-md">
+                                            </div>
+                                            <div class=" py-4 px-2">
+                                                <h1><%= product.name %></h1>
+                                                <h2 class="text-green-600"><%= product.price %></h2>
+                                            </div>
+                                            <button data-id="<%= product._id %>" class="add-to-cart absolute right-3 bg-white p-2 top-[52%] shadow-md rounded-[50%]" style="padding: 8px;">
+                                                <i class='bx bx-bookmark hover:shadow-lg cursor-pointer text-xl text-green-600'></i>
+                                            </button>
+                                            <div class="absolute left-0 top-0 text-center text-white w-[4rem] h-[1.8rem] bg-orange-400 rounded-br-xl rounded-tl-md">
+                                                <h1>Top</h1>
+                                            </div>
+                                            <div class="absolute left-0 top-[52%] text-center text-white px-1 text-sm rounded-tr-lg bg-[#0000007c]">
+                                                2
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                <% }) %>    
+                            <% } else { %> 
+                                <p>There are no products to display...</p>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="my-4 block xl:hidden">
+                    <h1 class="font-bold py-5 text-[#284058f8] text-xl">Trending ads</h1>
+                    <div class=" ml-[30px]" style="margin:30px 0;">
+                        <form id="filterForm">
+                            <div class="" style="display: inline-flex;">
+                                <label for="category" class="text-[#284058f8] text-xl font-bold">Category:</label>
+                                <select id="category" name="category">
+                                    <option value="">All</option>
+                                    <% categories.forEach(category => { %>
+                                        <option value="<%= category._id %>"><%= category.name %></option>
+                                    <% }) %>
+                                    <!-- Categories will be populated dynamically -->
+                                </select>
+                            </div>
+                            <!-- Region dropdown filter -->
+                            <label for="region" class="text-[#284058f8] text-xl font-bold">Region:</label>
+                            <select id="region" name="region">
+                                <% regions.forEach(region => { %>
+                                    <option value="<%= region.name %>"><%= region.name %></option>
+                                <% }) %>
+                            </select>
+                            <!-- Price range dropdown filter -->
+                            <label for="price" class="ml-5 text-[#284058f8] text-xl font-bold">Price Range:</label>
+                            <select id="price" name="price">
+                                <option value="">All</option>
+                                <!-- Update these options as needed for new price ranges -->
+                                <option value="0-100">0 - 100</option>
+                                <option value="100-500">100 - 500</option>
+                                <option value="500+">500+</option>
+                            </select>
+                            <!-- Button to apply filters -->
+                            <button type="submit" id="apply-filters" class="py-1 px-3 bg-orange-400 text-white hover:bg-orange-600 rounded-md mx-3" style="padding: 3px 7px;">Apply Filters</button>
+                        </form>
+                        
+                    </div>
+                    <div class="flex justify-center w-full">
+                        <div id="productsContainer" class="grid grid-cols-2 md:grid-cols-4 gap-2 w-full">
+                            <% if(products.length > 0){ %>
+                                <%products.forEach(product =>{ %>
+                                    <div class="relative rounded-md bg-white h-[16rem]">
+                                        <div class="h-[75%] rounded-t-lg" style="background-image: url('/img/images.jpeg'); background-position: center; background-size: cover;">
+                                        </div>
+                                        <div class="text-[14px] py-2 px-2 ">
+                                            <h1><%= product.name %></h1>
+                                            <h2 class="text-green-600"><%= product.price %></h2>
+                                        </div>
+                                        <div class="absolute right-3 bg-white p-2 top-[68%] shadow-md rounded-[50%]">
+                                            <i class='bx bx-bookmark hover:shadow-lg cursor-pointer text-xl text-green-600'></i>
+                                        </div>
+                                        <div class="absolute left-0 top-0 text-center text-white w-[4rem] h-[1.8rem] bg-orange-400 rounded-br-xl rounded-tl-md">
+                                            <h1>Top</h1>
+                                        </div>
+                                        <div class="absolute left-0 top-[67%] text-center text-white px-1 text-sm rounded-tr-lg bg-[#0000007c]">
+                                            2
+                                        </div>
+                                    </div>
+                                    
+                                <% }) %>    
+                            <% } else { %> 
+                                <p>There are no blogs to display...</p>
+                            <% } %>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <%- include('./partials/footer.ejs') %>
+    <script src="/js/script.js"></script>
+    <script src="/js/main.js"></script>   
+</body>
+</html>
